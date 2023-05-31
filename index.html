@@ -69,23 +69,37 @@
     >
       <section id="sobre-o-restaurante" class="pt-5 pb-5">
         <div class="carousel-slide" data-bs-ride="carousel" id="carousel">
-          <div class="carousel-inner" data-bs-interval="3000">
-            <div class="carousel-item active w-100">
+          <div class="carousel-inner" data-bs-interval="2000">
+            <div
+              class="carousel-item active w-100 d-flex justify-content-center"
+              style="position: relative"
+            >
               <img
                 src="images/food-712665_1280.jpg"
                 alt="foto de uma entrada"
+                class="d-block w-100"
               />
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
+            <div
+              class="carousel-item d-flex justify-content-center"
+              style="position: relative"
+              data-bs-interval="2000"
+            >
               <img
                 src="images/platter-2009590_1280.jpg"
                 alt="duas taças de vinho"
+                class="d-block w-100"
               />
             </div>
-            <div class="carousel-item" data-bs-interval="3000">
+            <div
+              class="carousel-item d-flex justify-content-center"
+              style="position: relative"
+              data-bs-interval="2000"
+            >
               <img
                 src="images/salad-2756467_1280.jpg"
                 alt="uma moça degustando"
+                class="d-block w-100"
               />
             </div>
           </div>
@@ -98,29 +112,29 @@
             <span class="carousel-control-prev-icon"></span>
           </button>
           <button
-            class="carousel-control-next"
+            class="carousel-control-next position-absolute end-0"
             type="button"
             data-bs-target="#carousel"
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon"></span>
           </button>
-          <div class="carousel-indicators">
+          <div class="carousel-indicators d-flex justify-content-center">
             <button
               type="button"
               data-bs-target="#carousel"
               class="active"
-              data-bs-slide="0"
+              data-bs-slide-to="0"
             ></button>
             <button
               type="button"
               data-bs-target="#carousel"
-              data-bs-slide="1"
+              data-bs-slide-to="1"
             ></button>
             <button
               type="button"
               data-bs-target="#carousel"
-              data-bs-slide="2"
+              data-bs-slide-to="2"
             ></button>
           </div>
         </div>
