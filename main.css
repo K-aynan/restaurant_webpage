@@ -58,16 +58,3 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
-@media screen and (max-width: 820px) {
-  .row {
-    flex-basis: 50%;
-  }
-}
-
-
-@media screen and (max-width: 480px) {
-  .row {
-    flex-basis: 100%;
-  }    
-}
